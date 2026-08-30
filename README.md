@@ -30,7 +30,7 @@ A Flutter mobile application implementing a complete authentication system using
 
 ### Login
 
-[Login Page](My_photos/LoginPage.jpeg)
+![Login Page](My_photos/LoginPage.jpeg)
 
 ### Sign Up
 
