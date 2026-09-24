@@ -480,7 +480,7 @@ if (user != null) {
                     color: const Color.fromRGBO(251, 250, 252, 1) ,
                     shape: const CircleBorder(),
                     
-                    child: Image.asset("My_photos/Google Icon.png"),
+                    child: Image.asset("assets/Google Icon.png"),
                   )
                   ),
                   
