@@ -37,13 +37,13 @@ A Flutter mobile application implementing a complete authentication system using
   </tr>
   <tr>
     <td>
-      <img src="My_photos/LoginPage.jpeg" width="200" alt="Login Page">
+      <img src="assets/LoginPage.jpeg" width="200" alt="Login Page">
     </td>
     <td>
-      <img src="My_photos/SignUpPage.jpeg" width="200" alt="Sign Up Page">
+      <img src="assets/SignUpPage.jpeg" width="200" alt="Sign Up Page">
     </td>
     <td>
-      <img src="My_photos/HomePage.jpeg" width="200" alt="Home Page">
+      <img src="assets/HomePage.jpeg" width="200" alt="Home Page">
     </td>
   </tr>
 </table>
