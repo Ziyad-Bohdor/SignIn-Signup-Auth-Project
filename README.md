@@ -26,19 +26,27 @@ A Flutter mobile application implementing a complete authentication system using
 * Facebook Authentication
 * Awesome Dialog
 
+
 ## 📱 Screenshots
 
-### Login
-
-![Login Page](My_photos/LoginPage.jpeg)
-
-### Sign Up
-
-![Sign Up Page](My_photos/SignUpPage.jpeg)
-
-### Home 
-
-![Home Page](My_photos/HomePage.jpeg)
+<table>
+  <tr>
+    <th>Login</th>
+    <th>Sign Up</th>
+    <th>Home</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="My_photos/LoginPage.jpeg" width="200" alt="Login Page">
+    </td>
+    <td>
+      <img src="My_photos/SignUpPage.jpeg" width="200" alt="Sign Up Page">
+    </td>
+    <td>
+      <img src="My_photos/HomePage.jpeg" width="200" alt="Home Page">
+    </td>
+  </tr>
+</table>
 
 ## 🔥 Firebase Architecture
 

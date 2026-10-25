@@ -1,10 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:my/Homepage.dart';
-import 'package:my/SignUp.dart';
-import 'package:my/loginpage.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:my/Screens/Homepage.dart';
+import 'package:my/Screens/SignUp.dart';
+import 'package:my/Screens/loginpage.dart';
 
 void main() async {
 
@@ -12,7 +11,7 @@ void main() async {
 
   await Firebase.initializeApp();
 
-runApp(const MyApp());
+  runApp(const MyApp());
 
 }
 
@@ -50,7 +49,8 @@ class State_MyApp extends State<MyApp>
 
       debugShowCheckedModeBanner: false,
 
-      home: (FirebaseAuth.instance.currentUser!=null && 
+      home: (
+              FirebaseAuth.instance.currentUser!=null && 
               FirebaseAuth.instance.currentUser!.emailVerified) 
               ? const Homepage() 
               : const LoginPage() ,
